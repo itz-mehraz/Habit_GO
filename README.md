@@ -7,6 +7,25 @@
 
 A beautiful, cross-platform habit tracking application built with Flutter that helps users build positive habits, track progress, and stay motivated with inspirational quotes.
 
+## 📱 **Download & Install**
+
+### **Android APK (Latest Release)**
+
+<div align="center">
+  
+  [![Download APK](https://img.shields.io/badge/Download-HabitGo%20APK-green?style=for-the-badge&logo=android)](HabitGo-v1.0.0.apk)
+  
+  **Version**: 1.0.0 | **Size**: 55.9MB | **Platform**: Android 5.0+
+  
+  ### **Installation Instructions:**
+  1. **Download** the APK file above
+  2. **Enable** "Install from Unknown Sources" in Android Settings
+  3. **Install** the APK file on your device
+  4. **Launch** HabitGo and start building habits!
+  
+  ⚠️ **Note**: This is a release build with Firebase integration. Ensure you have internet connection for full functionality.
+</div>
+
 ## 📱 Screenshots
 
 ### 🎨 User Interface & Design
