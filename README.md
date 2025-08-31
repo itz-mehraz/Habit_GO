@@ -10,6 +10,7 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
 ## 📱 Screenshots
 
 ### 🎨 User Interface & Design
+
 <div align="center">
   <table>
     <tr>
@@ -30,6 +31,7 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
 </div>
 
 ### 🔐 Authentication & Profile
+
 <div align="center">
   <table>
     <tr>
@@ -50,6 +52,7 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
 </div>
 
 ### 📊 Habit Management & Progress
+
 <div align="center">
   <table>
     <tr>
@@ -70,6 +73,7 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
 </div>
 
 ### 💬 Motivation & Features
+
 <div align="center">
   <table>
     <tr>
@@ -89,15 +93,38 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
   </table>
 </div>
 
+### 🔒 Security & Backend
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="ScreenShot/FireBaseDataBaseRules.jpeg" width="200" alt="Firebase Database Rules"/>
+        <br><strong>Firebase Database Rules</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/Header_UI_Design.jpeg" width="200" alt="Data Security"/>
+        <br><strong>Data Security</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/Header_UI_Design.jpeg" width="200" alt="Backend Integration"/>
+        <br><strong>Backend Integration</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## ✨ Features
 
 ### 🔐 **Authentication System**
+
 - Secure user registration and login
 - Firebase Authentication integration
 - User profile management
 - Password recovery support
 
 ### 📝 **Habit Management**
+
 - Create and customize habits
 - Set frequency and reminders
 - Track daily progress
@@ -105,6 +132,7 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
 - Smart habit suggestions
 
 ### 📊 **Progress Tracking**
+
 - Visual progress charts
 - Streak counting
 - Weekly/monthly statistics
@@ -112,12 +140,14 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
 - Progress history
 
 ### 💬 **Motivation System**
+
 - Daily inspirational quotes
 - Favorite quotes collection
 - Motivational notifications
 - Progress celebrations
 
 ### 🎨 **User Experience**
+
 - Beautiful, modern UI design
 - Dark/Light theme support
 - Responsive design for all screen sizes
@@ -125,12 +155,50 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
 - Intuitive navigation
 
 ### 🌐 **Cross-Platform Support**
+
 - **Android** - Native Android app
 - **iOS** - Native iOS app
 - **Web** - Progressive Web App (PWA)
 - **macOS** - Desktop application
 - **Linux** - Linux desktop app
 - **Windows** - Windows desktop app
+
+## 🔥 Firebase Configuration
+
+### **Backend Services**
+
+- **Firebase Authentication** - Secure user login and registration
+- **Cloud Firestore** - Real-time NoSQL database for user data
+- **Firebase Storage** - File storage for user uploads and media
+- **Firebase Core** - Cross-platform app initialization
+
+### **Security Implementation**
+
+- **User Data Isolation** - Users can only access their own data
+- **Authentication Required** - All database operations require valid user login
+- **Structured Collections** - Organized data hierarchy (users → habits → quotes)
+- **Real-time Security** - Security rules enforced on every database operation
+- **Firestore Rules** - Custom security rules protecting user data (see screenshot above)
+
+### **Data Architecture**
+
+```
+users/{userId}/
+├── profile/          # User profile information
+├── habits/{habitId}/ # User's personal habits
+└── favorites/
+    └── quotes/{quoteId}/ # User's favorite quotes
+```
+
+### **Setup Instructions**
+
+1. **Create Firebase Project** - Set up new project in Firebase Console
+2. **Enable Services** - Activate Authentication, Firestore, and Storage
+3. **Configure Security** - Implement Firestore security rules
+4. **Add Configuration** - Update `firebase_options.dart` with your project details
+5. **Test Integration** - Verify authentication and database operations
+
+⚠️ **Security Note**: Never commit actual Firebase API keys to public repositories. Use environment variables and keep sensitive configuration private.
 
 ## 🏗️ Project Structure
 
@@ -156,21 +224,25 @@ habitgo/
 ## 🔄 Workflow
 
 ### 1. **User Onboarding**
+
 ```
 Registration → Login → Profile Setup → Welcome Tutorial
 ```
 
 ### 2. **Habit Creation & Management**
+
 ```
 Create Habit → Set Frequency → Add Reminders → Start Tracking
 ```
 
 ### 3. **Daily Usage Flow**
+
 ```
 Open App → View Dashboard → Check Habits → Mark Progress → View Statistics
 ```
 
 ### 4. **Progress Tracking**
+
 ```
 Daily Check-ins → Streak Counting → Weekly Reports → Monthly Analytics
 ```
@@ -178,6 +250,7 @@ Daily Check-ins → Streak Counting → Weekly Reports → Monthly Analytics
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) (3.16.0 or higher)
 - [Dart SDK](https://dart.dev/get-dart) (3.2.0 or higher)
 - [Firebase Account](https://firebase.google.com/) (for backend services)
@@ -185,17 +258,20 @@ Daily Check-ins → Streak Counting → Weekly Reports → Monthly Analytics
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/itz-mehraz/Habit_GO.git
    cd Habit_GO
    ```
 
 2. **Install dependencies**
+
    ```bash
    flutter pub get
    ```
 
 3. **Configure Firebase**
+
    - Follow the [Firebase Setup Guide](FIREBASE_SETUP_GUIDE.md)
    - Add your Firebase configuration files
 
@@ -207,6 +283,7 @@ Daily Check-ins → Streak Counting → Weekly Reports → Monthly Analytics
 ## 🛠️ Build & Deploy
 
 ### Build for Production
+
 ```bash
 # Android APK
 flutter build apk --release
@@ -252,4 +329,10 @@ This project is licensed under the MIT License.
 <div align="center">
   <p>Made with ❤️ using Flutter</p>
   <p>If you find this project helpful, please give it a ⭐</p>
+  
+  <br>
+  
+  <a href="https://github.com/itz-mehraz" target="_blank">
+    <img src="https://img.shields.io/badge/Developed%20by-Mehraz-blue?style=for-the-badge&logo=github" alt="Developed by Mehraz"/>
+  </a>
 </div>
