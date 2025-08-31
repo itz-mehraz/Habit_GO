@@ -1,281 +1,255 @@
-# HabitGo - Habit Tracking App
+# 🚀 HabitGo - Smart Habit Tracking App
 
-A comprehensive Flutter-based habit tracking application that helps users create, manage, and track daily habits with progress visualization and motivational quotes.
+[![Flutter](https://img.shields.io/badge/Flutter-3.16.0-blue.svg)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-3.2.0-blue.svg)](https://dart.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-Cloud-orange.svg)](https://firebase.google.com/)
+[![Platform](https://img.shields.io/badge/Platform-Cross--Platform-green.svg)](https://flutter.dev/multi-platform)
 
-## 🚀 Features
-
-### Core Functionality
-- **User Authentication & Registration**
-  - Email/password registration with validation
-  - Secure login with session management
-  - User profile management with editable fields
-  - Terms & conditions acceptance
-
-- **Habit Management**
-  - Create, edit, and delete habits
-  - Categorize habits (Health, Study, Fitness, Productivity, Mental Health, Others)
-  - Set frequency (Daily/Weekly)
-  - Add notes and start dates
-  - Track completion status
-
-- **Progress Tracking**
-  - Real-time streak calculation
-  - Completion history tracking
-  - Visual progress charts using fl_chart
-  - Today's habit overview with completion status
-
-- **Motivational Quotes**
-  - Fetch quotes from external API (Quotable)
-  - Add/remove quotes to favorites
-  - Copy quotes to clipboard
-  - Fallback quotes when API is unavailable
-
-- **Theme & Personalization**
-  - Light/Dark mode toggle
-  - Theme preference synced with Firebase
-  - Modern Material Design 3 UI
-  - Responsive design for all screen sizes
-
-### Technical Features
-- **Firebase Integration**
-  - Authentication (Firebase Auth)
-  - Real-time database (Cloud Firestore)
-  - Data synchronization across devices
-  - Offline support with local caching
-
-- **State Management**
-  - Provider pattern for efficient state management
-  - Real-time updates and notifications
-  - Optimized performance with minimal rebuilds
-
-- **Data Persistence**
-  - Local storage with SharedPreferences
-  - Firebase cloud synchronization
-  - Automatic data backup and restore
+A beautiful, cross-platform habit tracking application built with Flutter that helps users build positive habits, track progress, and stay motivated with inspirational quotes.
 
 ## 📱 Screenshots
 
-*[Screenshots will be added here after app testing]*
+### 🎨 User Interface & Design
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="ScreenShot/Header_UI_Design.jpeg" width="200" alt="Header UI Design"/>
+        <br><strong>Header UI Design</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/DarkMood.png" width="200" alt="Dark Mode Theme"/>
+        <br><strong>Dark Mode Theme</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/HomePage_Dashboard" width="200" alt="Home Dashboard"/>
+        <br><strong>Home Dashboard</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
-## 🛠️ Technology Stack
+### 🔐 Authentication & Profile
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="ScreenShot/Login_Screen.png" width="200" alt="Login Screen"/>
+        <br><strong>Login Screen</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/Registration_Screen.png" width="200" alt="Registration Screen"/>
+        <br><strong>Registration Screen</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/Profile_section.png" width="200" alt="Profile Section"/>
+        <br><strong>Profile Section</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
-- **Frontend**: Flutter 3.8+
-- **Backend**: Firebase (Auth, Firestore)
-- **State Management**: Provider
-- **Charts**: fl_chart
-- **Local Storage**: SharedPreferences
-- **HTTP Requests**: http package
-- **Date Handling**: intl package
+### 📊 Habit Management & Progress
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="ScreenShot/New_Habit_add_Section.png" width="200" alt="Add New Habit"/>
+        <br><strong>Add New Habit</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/Habit_Progress_Smart_UI_Section.png" width="200" alt="Habit Progress"/>
+        <br><strong>Habit Progress</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/HabitSuggestion_&_QuickAction_Section.png" width="200" alt="Habit Suggestions"/>
+        <br><strong>Habit Suggestions</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
-## 📋 Requirements
+### 💬 Motivation & Features
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="ScreenShot/FavoriteQuotes_Section.png" width="200" alt="Favorite Quotes"/>
+        <br><strong>Favorite Quotes</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/Motivation_Section_Features.jpeg" width="200" alt="Motivation Features"/>
+        <br><strong>Motivation Features</strong>
+      </td>
+      <td align="center">
+        <img src="ScreenShot/Header_UI_Design.jpeg" width="200" alt="Modern UI"/>
+        <br><strong>Modern UI</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
-- Flutter SDK 3.8.1 or higher
-- Dart SDK 3.8.1 or higher
-- Android Studio / VS Code
-- Firebase project setup
-- Android API level 21+ / iOS 11.0+
+## ✨ Features
 
-## 🔧 Setup Instructions
+### 🔐 **Authentication System**
+- Secure user registration and login
+- Firebase Authentication integration
+- User profile management
+- Password recovery support
 
-### 1. Clone the Repository
+### 📝 **Habit Management**
+- Create and customize habits
+- Set frequency and reminders
+- Track daily progress
+- Habit categories and tags
+- Smart habit suggestions
+
+### 📊 **Progress Tracking**
+- Visual progress charts
+- Streak counting
+- Weekly/monthly statistics
+- Achievement badges
+- Progress history
+
+### 💬 **Motivation System**
+- Daily inspirational quotes
+- Favorite quotes collection
+- Motivational notifications
+- Progress celebrations
+
+### 🎨 **User Experience**
+- Beautiful, modern UI design
+- Dark/Light theme support
+- Responsive design for all screen sizes
+- Smooth animations and transitions
+- Intuitive navigation
+
+### 🌐 **Cross-Platform Support**
+- **Android** - Native Android app
+- **iOS** - Native iOS app
+- **Web** - Progressive Web App (PWA)
+- **macOS** - Desktop application
+- **Linux** - Linux desktop app
+- **Windows** - Windows desktop app
+
+## 🏗️ Project Structure
+
+```
+habitgo/
+├── 📁 lib/                          # Main application code
+│   ├── 📁 config/                   # Configuration files
+│   ├── 📁 models/                   # Data models
+│   ├── 📁 providers/                # State management
+│   ├── 📁 screens/                  # UI screens
+│   ├── 📁 services/                 # Business logic services
+│   └── 📁 widgets/                  # Reusable UI components
+├── 📁 android/                      # Android platform files
+├── 📁 ios/                          # iOS platform files
+├── 📁 web/                          # Web platform files
+├── 📁 macos/                        # macOS platform files
+├── 📁 linux/                        # Linux platform files
+├── 📁 windows/                      # Windows platform files
+├── 📁 assets/                       # App assets
+└── 📁 ScreenShot/                   # App screenshots
+```
+
+## 🔄 Workflow
+
+### 1. **User Onboarding**
+```
+Registration → Login → Profile Setup → Welcome Tutorial
+```
+
+### 2. **Habit Creation & Management**
+```
+Create Habit → Set Frequency → Add Reminders → Start Tracking
+```
+
+### 3. **Daily Usage Flow**
+```
+Open App → View Dashboard → Check Habits → Mark Progress → View Statistics
+```
+
+### 4. **Progress Tracking**
+```
+Daily Check-ins → Streak Counting → Weekly Reports → Monthly Analytics
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (3.16.0 or higher)
+- [Dart SDK](https://dart.dev/get-dart) (3.2.0 or higher)
+- [Firebase Account](https://firebase.google.com/) (for backend services)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/itz-mehraz/Habit_GO.git
+   cd Habit_GO
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Configure Firebase**
+   - Follow the [Firebase Setup Guide](FIREBASE_SETUP_GUIDE.md)
+   - Add your Firebase configuration files
+
+4. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+## 🛠️ Build & Deploy
+
+### Build for Production
 ```bash
-git clone https://github.com/yourusername/habitgo.git
-cd habitgo
-```
-
-### 2. Install Dependencies
-```bash
-flutter pub get
-```
-
-### 3. Firebase Setup
-
-#### Create Firebase Project
-1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project
-3. Enable Authentication (Email/Password)
-4. Create Firestore database
-5. Set security rules for Firestore
-
-#### Configure Firebase in Flutter
-1. Download `google-services.json` for Android
-2. Download `GoogleService-Info.plist` for iOS
-3. Place files in respective platform directories
-
-#### Android Setup
-- Place `google-services.json` in `android/app/`
-- Update `android/build.gradle` with Firebase classpath
-- Update `android/app/build.gradle` with Firebase plugin
-
-#### iOS Setup
-- Place `GoogleService-Info.plist` in `ios/Runner/`
-- Update `ios/Runner/Info.plist` with Firebase configuration
-
-### 4. Run the App
-```bash
-flutter run
-```
-
-## 🗄️ Database Structure
-
-### Firestore Collections
-
-#### Users Collection
-```
-users/{userId}
-├── displayName: string
-├── email: string
-├── gender: string (optional)
-├── dateOfBirth: timestamp (optional)
-├── height: number (optional)
-├── createdAt: timestamp
-├── lastUpdated: timestamp
-├── isDarkMode: boolean
-└── favoriteQuotes: array
-```
-
-#### Habits Collection
-```
-users/{userId}/habits/{habitId}
-├── userId: string
-├── title: string
-├── category: string
-├── frequency: string
-├── startDate: timestamp (optional)
-├── notes: string (optional)
-├── createdAt: timestamp
-├── currentStreak: number
-├── completionHistory: array<timestamp>
-└── isActive: boolean
-```
-
-#### Favorites Collection
-```
-users/{userId}/favorites/quotes/{quoteId}
-├── text: string
-├── author: string
-└── isFavorite: boolean
-```
-
-## 🎯 Usage Guide
-
-### Getting Started
-1. **Register/Login**: Create an account or sign in with existing credentials
-2. **Create Habits**: Add your first habit with title, category, and frequency
-3. **Track Progress**: Mark habits as completed daily/weekly
-4. **View Progress**: Check streaks and completion history
-5. **Stay Motivated**: Read and save inspirational quotes
-
-### Creating Habits
-- Choose a descriptive title
-- Select appropriate category
-- Set frequency (daily for regular habits, weekly for occasional ones)
-- Add optional notes for context
-- Set start date if different from today
-
-### Tracking Completion
-- Mark habits as completed on the home screen
-- View current streak and total completions
-- Check progress charts for visual feedback
-- Filter habits by category for better organization
-
-### Managing Profile
-- Update personal information
-- Toggle between light and dark themes
-- View account statistics
-- Manage favorite quotes
-
-## 🔒 Security Features
-
-- Firebase Authentication with email/password
-- Secure Firestore rules
-- Input validation and sanitization
-- Session management with local storage
-- Secure API communication
-
-## 📊 Performance Features
-
-- Efficient state management with Provider
-- Real-time data synchronization
-- Offline support with local caching
-- Optimized UI rendering
-- Minimal network requests
-
-## 🧪 Testing
-
-### Unit Tests
-```bash
-flutter test
-```
-
-### Integration Tests
-```bash
-flutter test integration_test/
-```
-
-### Widget Tests
-```bash
-flutter test test/widget_test.dart
-```
-
-## 🚀 Deployment
-
-### Android
-```bash
+# Android APK
 flutter build apk --release
-flutter build appbundle --release
-```
 
-### iOS
-```bash
+# Web
+flutter build web --release
+
+# iOS
 flutter build ios --release
 ```
 
-### Web
+## 🧪 Testing
+
 ```bash
-flutter build web --release
+# Run all tests
+flutter test
+
+# Run tests with coverage
+flutter test --coverage
 ```
 
 ## 🤝 Contributing
 
+We welcome contributions! Please follow these steps:
+
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Developer
-
-**Zia Khan**
-- Email: developer.ziakhan@gmail.com
-- GitHub: [@ziakhan](https://github.com/ziakhan)
-
-## 🙏 Acknowledgments
-
-- Flutter team for the amazing framework
-- Firebase for backend services
-- Quotable API for motivational quotes
-- Open source community for packages and inspiration
+This project is licensed under the MIT License.
 
 ## 📞 Support
 
-For support, email developer.ziakhan@gmail.com or create an issue in the repository.
-
-## 🔄 Version History
-
-- **v1.0.0** - Initial release with core features
-  - User authentication and registration
-  - Habit creation and management
-  - Progress tracking and visualization
-  - Motivational quotes system
-  - Theme customization
-  - Firebase integration
+- **Issues**: [GitHub Issues](https://github.com/itz-mehraz/Habit_GO/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/itz-mehraz/Habit_GO/discussions)
 
 ---
 
-**HabitGo** - Track your habits, achieve your goals! 🎯
-# Habit_GO
+<div align="center">
+  <p>Made with ❤️ using Flutter</p>
+  <p>If you find this project helpful, please give it a ⭐</p>
+</div>
