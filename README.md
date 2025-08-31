@@ -96,22 +96,8 @@ A beautiful, cross-platform habit tracking application built with Flutter that h
 ### 🔒 Security & Backend
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="ScreenShot/FireBaseDataBaseRules.jpeg" width="200" alt="Firebase Database Rules"/>
-        <br><strong>Firebase Database Rules</strong>
-      </td>
-      <td align="center">
-        <img src="ScreenShot/Header_UI_Design.jpeg" width="200" alt="Data Security"/>
-        <br><strong>Data Security</strong>
-      </td>
-      <td align="center">
-        <img src="ScreenShot/Header_UI_Design.jpeg" width="200" alt="Backend Integration"/>
-        <br><strong>Backend Integration</strong>
-      </td>
-    </tr>
-  </table>
+  <img src="ScreenShot/FireBaseDataBaseRules.jpeg" width="400" alt="Firebase Database Rules"/>
+  <br><strong>Firebase Database Rules - User data protection and security</strong>
 </div>
 
 ## ✨ Features
