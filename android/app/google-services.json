@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "890430890610",
+    "project_id": "habitgo-12ecf",
+    "storage_bucket": "habitgo-12ecf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890430890610:android:fcb6f2ae5ad445fea258eb",
+        "android_client_info": {
+          "package_name": "com.example.habitgo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJtTifhiTBS_9QAnw4ZD8YQeXKFmrL7zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
